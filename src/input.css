@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap'); */
+
+@tailwind base;
+@layer base {
+
+/* remember to apply below chunck of code to use font allover html */
+    html {
+      @apply font-inter;
+    }
+  }
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .card {
+        @apply rounded-xl border;
+    }
+}
