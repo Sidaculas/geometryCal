@@ -11,7 +11,7 @@ function onHover() {
 }
 
 
-
+// changing the background on hover
 function backgroundChange(id){
     document.getElementById(id).addEventListener('mouseenter', function(){
         const bgColor = onHover();
